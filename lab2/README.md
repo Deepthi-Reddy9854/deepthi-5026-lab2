@@ -8,11 +8,11 @@
 **Faculty:** SHIVA SAI TEJA
 **Title:** SQLite database and CRUD routes
 
-## Live Link https://vinuthna-5017-lab2.onrender.com/books
+## Render Deployment
 
-**Status:** deployed
+The repository includes a `render.yaml` Blueprint configuration at its root. In Render, create a new Blueprint and select this GitHub repository; Render will build and start the web service using the `lab2` project folder.
 
-This project has been tested locally using Postman. The current version uses a local SQLite database file (`database.db`). Postman screenshots are included as evidence of the working endpoints. A public deployment URL will be added after deployment.
+The free Render service uses an ephemeral filesystem. Because this project stores data in a local SQLite file, database changes can be lost when the service restarts, spins down, or is redeployed.
 
 ## Objective
 
